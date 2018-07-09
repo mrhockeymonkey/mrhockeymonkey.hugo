@@ -1,0 +1,12 @@
+baseURL = "https://mrhockeymonkey.github.io/"
+languageCode = "en-us"
+title = "Scott Matthews"
+theme = "hyde-hyde"
+
+pygmentsUseClasses = true # required to work with highlightjs below
+pygmentsCodefences = true # allows github style code block
+#pygmentsOptions = "linenos=table"
+
+[params]
+highlightjs = true # use highlightjs for syntax
+highlightjslanguages = ["go", "powershell"] # not all languages ship by default, add ones you need
